@@ -1,0 +1,21 @@
+CLIENT_ID = '448595319809886'
+CLIEND_SECRET = '03b0d60d5f56a7f021f1bf1b4150755c'
+REDIRECT_URI = 'http%3A%2F%2Frahman.epizy.com%2F'
+
+Meminta Dialog Masuk dan Mengatur URL Pengalihan
+https://www.facebook.com/v10.0/dialog/oauth?client_id=448595319809886&redirect_uri=https%3A%2F%2Frahman.epizy.com
+  &state={state-param}
+
+  https://www.facebook.com/v10.0/dialog/oauth?client_id=448595319809886&redirect_uri=https%3A%2F%2Fsiramarullah.wordpress.com
+
+  code : AQDboY12RMKTFmHYvmBlRrNBi2qg1GZ7UER8cquAbEm_zw_pVDbkkvfn9NZ2bOzB7Xq2abU7kV55LxzlkwOOSHGGLJ02yyMijOmJI5yT7rluTMrJ9iwCXDQ8BzvK326lxf7Uw9iJCiCb3cpKnkSYUp4kANnapZNcDrWK01US_Bxy2HJNU3z3bvokgVSVHJctmDtOGFuzZlLjo7cARhb-0t6OPUZM6Ok2BB3nFvVSrUZxluiWp4kymXuIx0RcRVb8vHUZ3s61VN76mrzqGksN_ySfYfBsY2_wq21bJfRgip1GnJhqAlNg1kYSAvs_M8ONRQTSw3PhVvl-XVfce7rq0_Ud#_=_
+
+  Mengganti Kode dengan Token Akses
+  GET https://graph.facebook.com/v10.0/oauth/access_token?
+   client_id=448595319809886
+   &redirect_uri=https%3A%2F%2Fsiramarullah.wordpress.com%2F
+   &client_secret=03b0d60d5f56a7f021f1bf1b4150755c
+   &code=AQDboY12RMKTFmHYvmBlRrNBi2qg1GZ7UER8cquAbEm_zw_pVDbkkvfn9NZ2bOzB7Xq2abU7kV55LxzlkwOOSHGGLJ02yyMijOmJI5yT7rluTMrJ9iwCXDQ8BzvK326lxf7Uw9iJCiCb3cpKnkSYUp4kANnapZNcDrWK01US_Bxy2HJNU3z3bvokgVSVHJctmDtOGFuzZlLjo7cARhb-0t6OPUZM6Ok2BB3nFvVSrUZxluiWp4kymXuIx0RcRVb8vHUZ3s61VN76mrzqGksN_ySfYfBsY2_wq21bJfRgip1GnJhqAlNg1kYSAvs_M8ONRQTSw3PhVvl-XVfce7rq0_Ud#_=_
+  
+  https://graph.facebook.com/v10.0/oauth/access_token?client_id=448595319809886&redirect_uri=https%3A%2F%2Fsiramarullah.wordpress.com%2F&client_secret=03b0d60d5f56a7f021f1bf1b4150755c&code=AQDkmMwKQJzI36pe3TMoldPXJLlVcjhD_l3D_jN2GbLNhLV7L90qWGQwYTOiidKN1NsJwNluFtEV5SD3hjJ1Ot09Bi887tIa-cV7dVwZwOO5QdB9DOz-atyz4hRy18MSZn60S2wlLTnMlv4qy8girld4DR56LuNaUMmmx9OhzAj58dd1F0i0BLMI9uAkMKMFG-K7qCNrs-3cuvyc-ZNVKn8p4Eh8mQWYcfj43dgWbCdIpNJ2ckYsoY7oXHbVW2So3rcssllkubbbzGaI4edbkdQSZNuJ9HthMDrhDHFdKW7Cc-bTVx4AKHioUSHAoeTSjBJGV5KePpa0vbbKlqjRDkvv#_=_
+  response : access_token : 
